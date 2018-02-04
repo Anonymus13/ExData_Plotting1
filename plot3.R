@@ -1,5 +1,5 @@
 ##Reading data
-setwd("N:/Explanatory_analysis") #your working directory
+#setwd("N:/Explanatory_analysis") #your working directory
 colnames <- read.table("./household_power_consumption.txt", nrows=1, sep=";", header=F)
 cnames <- as.vector(t(colnames))
 ##ids <- grep("1/2/2007", readLines("./household_power_consumption.txt"), fixed=T) #used to determine the range
